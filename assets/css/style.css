@@ -18,7 +18,7 @@ img{
   display:flex;
   padding: 10px;
   margin: 10px;                             
-}     
+}                                                  /* adjusting position game instructions for player 1 and and player 2 */ 
 .inst div {
   padding: 10px;
   margin: 10px;  
