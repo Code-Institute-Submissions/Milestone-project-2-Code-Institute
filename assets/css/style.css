@@ -4,3 +4,10 @@
     padding:0;                     /* adjusting basic values - set to 0*/                 
     border:0;
 }
+body { 
+  font-family: 'Ubuntu', sans-serif;
+  text-align: center;                            
+  width: 70%;
+  max-width: 700px;
+  margin: auto;
+}
