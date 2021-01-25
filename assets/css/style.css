@@ -14,3 +14,8 @@ body {
 img{                                                                                                       
   height: 300px;                                  /* adjusting size of image*/          
 }
+.inst {                                          
+  display:flex;
+  padding: 10px;
+  margin: 10px;                             
+}        
