@@ -12,7 +12,8 @@ body {
   margin: auto;
 }
 img{                                                                                                       
-  height: 300px;                                  /* adjusting size of image*/          
+  height: 300px;                                  /* adjusting size of image*/      
+  border-radius: 50%;    
 }
 .inst {                                          
   display:flex;
