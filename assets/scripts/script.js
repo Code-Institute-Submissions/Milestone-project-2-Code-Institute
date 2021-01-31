@@ -8,7 +8,8 @@ function start() {                  /*  main start function  */
 var player2 = window.prompt("Now, Player 2, please enter your name: ");
 alert("Thanks " + player2);                                             /*  player two variable  */
 
-
+ alert("Press OK and Play!");
+ var pressed = []; 
 
 
 
