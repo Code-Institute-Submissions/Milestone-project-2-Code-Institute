@@ -16,5 +16,8 @@ window.addEventListener('keyup', (e) => {
    pressed.push(e.key);
     //console.log(pressed.length);
 
+ if(pressed.length == 2) {
+      alert("Let´s see who win!") 
+
 
 }
