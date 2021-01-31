@@ -28,5 +28,12 @@ Game is made from main html page. On that page there is
 ## Skeleton
 
 Wireframe skelton was build with softwere balsamiq and uploaded in wireframes folder
-1. [wireframe of  main page ()
+1. [wireframe of  main page (https://github.com/mariodragun/Milestone-project-2-Code-Institute/blob/master/wireframes/wireframe%20for%20main%20page.bmpr)
 
+## Technologies used
+
+1. HTML
+2. CSS
+3. Google Fonts
+4. Java Script
+5. JSON (JavaScript Object Notation) 
