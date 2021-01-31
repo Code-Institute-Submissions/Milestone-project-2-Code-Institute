@@ -6,7 +6,7 @@ function start() {                  /*  main start function  */
  alert("Thanks " + player1);                                            /*  player one variable  */
 
 var player2 = window.prompt("Now, Player 2, please enter your name: ");
-alert("Thanks " + player2); 
+alert("Thanks " + player2);                                             /*  player two variable  */
 
 
 
