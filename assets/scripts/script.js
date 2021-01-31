@@ -17,7 +17,7 @@ window.addEventListener('keyup', (e) => {
     //console.log(pressed.length);
 
  if(pressed.length == 2) {
-      alert("Let´s see who win!") 
+      alert("Let´s see who win!")                       /*  alert after both player played their choices  */
 
 
 }
