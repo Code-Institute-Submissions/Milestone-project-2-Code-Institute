@@ -21,3 +21,5 @@ window.addEventListener('keyup', (e) => {
 
 
 }
+ function winner(pressed){
+}
