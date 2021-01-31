@@ -11,7 +11,10 @@ alert("Thanks " + player2);                                             /*  play
  alert("Press OK and Play!");
  var pressed = [];                       /*  variable pressed it will be run after player1 and player2 add their names */
 
-
+window.addEventListener('keyup', (e) => {
+  //console.log(e.key);
+   pressed.push(e.key);
+    //console.log(pressed.length);
 
 
 }
