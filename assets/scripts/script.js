@@ -1,5 +1,6 @@
 var pressed = [];
 var score1 = 0
+var score2 = 0
 function start() {
   
   alert("The game has started");
