@@ -95,11 +95,15 @@ function start() {
     //console.log(pressed); 
 
 
-    
+
    function keepGoing() {
    if(confirm('Do you want to continue?')) { 
      this.pressed = [];
      play()
    } else {alert("Game Over!")}
+   
+function start() {
+     greetings();
+      play();
 }
   )}
