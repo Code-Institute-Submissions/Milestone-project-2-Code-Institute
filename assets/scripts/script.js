@@ -7,11 +7,11 @@ var player1choice = pressed[0];
 var player2choice = pressed[1];
 
 function greetings() {
-    alert("The game has started");                                                 /*palyer 1 and palyer2 variables are added to function greeting*/
+    alert("The game has started");                                                 /*player 1 and player2 variables are added to function greeting*/
      this.player1 = window.prompt("Player 1, please enter your name: ");
-     alert("Thanks " + player1);    
+     alert("Thanks" + player1);    
      this.player2 = window.prompt("Now, Player 2, please enter your name: ");
-    alert("Thanks " + player2); 
+     alert("Thanks" + player2);
 }
 
  window.addEventListener('keyup', (e) => {                                    /*window global scope*/
@@ -21,13 +21,13 @@ function greetings() {
            //console.log(pressed);
    
             if(pressed.length == 2) {
-              player1choice = pressed[0] 
-              player2choice = pressed[1]
+              player1choice = pressed[0];
+              player2choice = pressed[1];
               //console.log(player1choice, player2choice)
-                 alert("Let´s see who win!")  
+                 alert("Let´s see who win!"); 
               this.winner(pressed); 
             }
-          })
+          });
 
 function play() {
   alert("Please press OK and Play!");                                        /*function play*/
@@ -40,7 +40,7 @@ function winner(pressed){
         JSON.stringify(pressed) == JSON.stringify(["a", "5"]) ||
         JSON.stringify(pressed) == JSON.stringify(["s", "6"]) ||
         JSON.stringify(pressed) == JSON.stringify(["z", "3"])
-      ) { alert("DRAW! Press start to play again!")} 
+      ) { alert("DRAW! Press start to play again!");} 
       else if (
         JSON.stringify(pressed) == JSON.stringify(["q", "3"]) ||
         JSON.stringify(pressed) == JSON.stringify(["q", "5"]) ||
@@ -71,10 +71,10 @@ function winner(pressed){
             break;
         }
 
-
-        alert(this.player1 + " WIN with " + this.player1choice)
-        this.score1++
-        alert(this.player1 + ": " + this.score1 + " X " + this.player2 + ": " + this.score2)
+                                                                           
+        alert(this.player1 + " WIN with " + this.player1choice);
+        this.score1++;
+        alert(this.player1 + ": " + this.score1 + " X " + this.player2 + ": " + this.score2);
 
       } 
       else {
@@ -95,9 +95,9 @@ function winner(pressed){
             this.player2choice = "LIZARD!";
             break;
         }
-        alert(this.player2 + " WIN with " + this.player2choice)
-        this.score2++
-        alert(this.player1 + ": " + this.score1 + " X " + this.player2 + ": " + this.score2)
+        alert(this.player2 + " WIN with " + this.player2choice);
+        this.score2++;
+        alert(this.player1 + ": " + this.score1 + " X " + this.player2 + ": " + this.score2);
       }
       keepGoing();
 
@@ -111,8 +111,8 @@ function winner(pressed){
 function keepGoing() {                                                     
    if(confirm('Do you want to continue?')) { 
      this.pressed = [];
-     play()
-   } else {alert("Game Over!")}
+     play();
+   } else {alert("Game Over!");}
 }
 
 function start() {                                                      /* function start calls function greetings and function play to begin game*/
