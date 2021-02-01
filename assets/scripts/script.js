@@ -62,10 +62,29 @@ function start() {
             player1choice = "LIZARD!";
             break;
                 }
-                { alert(player1 + " WIN!")} 
-           else {
-             //console.log(pressed); 
-             alert(player2 + " WIN!")
+                {  alert(this.player2 + " WIN with " + this.player2choice)
+        this.score2++
+        alert(this.player1 + ": " + this.score1 + " X " + this.player2 + ": " + this.score2)
+      }
+      else {
+        switch(this.player2choice){
+          case "8":
+            this.player2choice = "ROCK!";
+            break;
+          case "9":
+            this.player2choice = "PAPER!";
+            break;
+          case "5":
+            this.player2choice = "SCISSORS!";
+            break;
+          case "6":
+            this.player2choice = "SPOCK!";
+            break;
+          case "3":
+            this.player2choice = "LIZARD!";
+            break;
+        }
+      keepGoing();
                   }
               }
             }
