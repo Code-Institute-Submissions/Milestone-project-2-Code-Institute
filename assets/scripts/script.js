@@ -44,7 +44,25 @@ function start() {
              JSON.stringify(pressed) == JSON.stringify(["s", "8"]) ||
              JSON.stringify(pressed) == JSON.stringify(["z", "6"]) ||
              JSON.stringify(pressed) == JSON.stringify(["z", "9"])
-                ) { alert(player1 + " WIN!")} 
+                ) 
+                switch(player1choice){
+          case "q":
+            player1choice = "ROCK!";
+            break;
+          case "w":
+            player1choice = "PAPER!";
+            break;
+          case "a":
+            player1choice = "SCISSORS!";
+            break;
+          case "s":
+            player1choice = "SPOCK!";
+            break;
+          case "z":
+            player1choice = "LIZARD!";
+            break;
+                }
+                { alert(player1 + " WIN!")} 
            else {
              //console.log(pressed); 
              alert(player2 + " WIN!")
