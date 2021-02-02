@@ -10,6 +10,7 @@ body {
   width: 70%;                                     /*basic body style*/
   max-width: 700px;
   margin: auto;
+  background-color: #4682B4;
 }
 img{                                                                                                       
   height: 300px;                                  /* adjusting size of image*/      
