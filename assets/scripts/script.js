@@ -14,7 +14,7 @@ function greetings() {
      alert("Thanks" + player2);
 }
 
- window.addEventListener('keyup', (e) => {                                    /*window global scope*/
+window.addEventListener('keyup', function (e) {                                    /*window global scope*/
           //console.log(e.key);
            pressed.push(e.key);
           //console.log(pressed.length);
@@ -33,7 +33,7 @@ function play() {
   alert("Please press OK and Play!");                                        /*function play*/
 }
 
-function winner(pressed){
+function winner(pressed){                                                          /*function winner and JSON*/
       if(
         JSON.stringify(pressed) == JSON.stringify(["q", "8"]) ||
         JSON.stringify(pressed) == JSON.stringify(["w", "9"]) ||
