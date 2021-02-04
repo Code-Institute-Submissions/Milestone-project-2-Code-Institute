@@ -14,10 +14,15 @@ so opponent can not see their choice.
 
 Rock Paper Scissors Lizard Spock originaly game rules was established from Sam Kass and Karen Bryla, but game 
 become globally famous with Big Bang Theory show. So this project is like tribute to that show.
+After button start is pressed game will start and players will enter their names and proceed with game.
+After player 1 press his choice than player 2 also needs to press his choice and we will se results.
+Hame does not have end, player can play it indefinitely.
 
 ## Structure
 
-Game is made from main html page. On that page there is
+Game is made from main html page. Main color on page eye resting cornsilk, with green button and
+black ubuntu font. On bottom of page there is icon that opens new window with youtube link.
+ Visible elements on  page: 
 * game title
 * start button
 * main image ( which is also graphical representation of game rules)
@@ -38,3 +43,10 @@ Wireframe skelton was build with softwere balsamiq and uploaded in wireframes fo
 4. Font Awesome
 5. Java Script
 6. JSON (JavaScript Object Notation) 
+
+## Credits
+Font Ubuntu used for projects are imported from google fonts and youtube icon has been imported from
+Font Awsome. Main image was downloaded from page teepublic.com [image] (https://www.teepublic.com/magnet/675956-rock-paper-scissors-lizard-spock)
+
+## Conclusion:
+ Game Rock Paper Lizard Wizard Spock was developed only for educational use and won`t be in commercial use.
