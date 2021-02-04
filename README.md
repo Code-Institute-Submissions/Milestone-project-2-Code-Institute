@@ -44,6 +44,16 @@ Wireframe skelton was build with softwere balsamiq and uploaded in wireframes fo
 5. Java Script
 6. JSON (JavaScript Object Notation) 
 
+## Features
+This game was developed  primay for full keyboard desktop computers and laptops on dock station.
+
+## Testing 
+Final version of this projects was tested on several browsers: Chrome, Firefox, Safari.
+Game was long time tested through playing. CSS, Html and Java script codes are tested successfully with validators.
+1. [CSS validator](asset/images. CSS validator.PNG)
+2. [HTML  validator] (assets/images/html validator.PNG)
+3. [Java Script validator] (assets/images/JS validator.png)
+
 ## Credits
 Font Ubuntu used for projects are imported from google fonts and youtube icon has been imported from
 Font Awsome. Main image was downloaded from page teepublic.com [image] (https://www.teepublic.com/magnet/675956-rock-paper-scissors-lizard-spock)
