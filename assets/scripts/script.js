@@ -89,7 +89,7 @@ function winner(pressed){                                                       
         }
 
                                                                            
-        alert(this.player1 + " WIN with " + this.player1choice + " against " + this.player2choice);
+        alert(this.player1 + " WINS with " + this.player1choice + " against " + this.player2choice);
         this.score1++;
         alert(this.player1 + ": " + this.score1 + " X " + this.player2 + ": " + this.score2);
 
@@ -129,7 +129,7 @@ function winner(pressed){                                                       
             player1choice = "LIZARD!";
             break;
         }
-        alert(this.player2 + " WIN with " + this.player2choice + " against " + this.player1choice);
+        alert(this.player2 + " WINS with " + this.player2choice + " against " + this.player1choice);
         this.score2++;
         alert(this.player1 + ": " + this.score1 + " X " + this.player2 + ": " + this.score2);
       }
