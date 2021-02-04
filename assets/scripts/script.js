@@ -1,10 +1,10 @@
 var pressed = [];                                      /*assign array to variable with user input*/
-var score1 = 0;
-var score2 = 0;
+var score1 = 0;                                        /*variables for score */
+var score2 = 0; 
 var player1 = 0;
-var player2 = 0;
+var player2 = 0;                                                 /*variables for players*/
 var player1choice = pressed[0];
-var player2choice = pressed[1];
+var player2choice = pressed[1];                                  /*variables for players choice*/
 
 function greetings() {
     alert("The game has started");                                                 /*player 1 and player2 variables are added to function greeting*/
@@ -88,7 +88,7 @@ function winner(pressed){                                                       
             break;
         }
 
-                                                                           
+                                                                           /*results in case player 1 wins */
         alert(this.player1 + " WINS with " + this.player1choice + " against " + this.player2choice);
         this.score1++;
         alert(this.player1 + ": " + this.score1 + " X " + this.player2 + ": " + this.score2);
@@ -128,7 +128,7 @@ function winner(pressed){                                                       
           case "z":
             player1choice = "LIZARD!";
             break;
-        }
+        }                                                                   /*results in case player 1 wins */
         alert(this.player2 + " WINS with " + this.player2choice + " against " + this.player1choice);
         this.score2++;
         alert(this.player1 + ": " + this.score1 + " X " + this.player2 + ": " + this.score2);
@@ -141,7 +141,7 @@ function winner(pressed){                                                       
    
   
 
-
+                    /*function that will end game after rounf is played or continue with game*/
 function keepGoing() {                                                     
    if(confirm('Do you want to continue?')) { 
      this.pressed = [];
