@@ -66,17 +66,17 @@ This project was developed using the Git pod edditor and committed to GitHub. As
 [Milestone-project-2-Code-Institute](https://mariodragun.github.io/Milestone-project-2-Code-Institute/)
 
 ## Development
-Project was developed using git pod and uploaded to [git hub] https://github.com/mariodragun/Milestone-project-2-Code-Institute/tree/master/wireframes
+Project was developed using git pod and uploaded to git hub.
 The greatest chalenge was to make game controls runnig with keyboard. Second chalenge was to repair typos that was
 causing that functions was not running as they spouse to.
 
 ## Further development
 There is possibility for further development of this game in way to add another mode so that can be indefinitely
-and up to 5 game. Other of choice is to add button day mode/ night mode.
+and games up to 5 and upm to 10. Other of choice is to add button day mode/ night mode.
 
 ## Credits
 Font Ubuntu used for projects are imported from google fonts and youtube icon has been imported from
-Font Awsome. Main image was downloaded from page teepublic.com [image](https://www.teepublic.com/magnet/675956-rock-paper-scissors-lizard-spock)
+Font Awsome. Main image was downloaded from page teepublic.com [image](https://www.teepublic.com/magnet/675956-rock-paper-scissors-lizard-spock).
 Video with game rules was used from [youtube](https://www.youtube.com/watch?v=_PUEoDYpUyQ)
 
 ## Conclusion
