@@ -35,5 +35,6 @@ Wireframe skelton was build with softwere balsamiq and uploaded in wireframes fo
 1. HTML
 2. CSS
 3. Google Fonts
-4. Java Script
-5. JSON (JavaScript Object Notation) 
+4. Font Awesome
+5. Java Script
+6. JSON (JavaScript Object Notation) 
