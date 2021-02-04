@@ -9,9 +9,9 @@ var player2choice = pressed[1];
 function greetings() {
     alert("The game has started");                                                 /*player 1 and player2 variables are added to function greeting*/
      this.player1 = window.prompt("Player 1, please enter your name: ");
-     alert("Thanks" + player1);    
+     alert("Thanks " + player1);    
      this.player2 = window.prompt("Now, Player 2, please enter your name: ");
-     alert("Thanks" + player2);
+     alert("Thanks " + player2);
 }
 
 window.addEventListener('keyup', function (e) {                                    /*window global scope*/
@@ -70,9 +70,26 @@ function winner(pressed){                                                       
             player1choice = "LIZARD!";
             break;
         }
+	switch(this.player2choice){
+          case "8":
+            this.player2choice = "ROCK!";
+            break;
+          case "9":
+            this.player2choice = "PAPER!";
+            break;
+          case "5":
+            this.player2choice = "SCISSORS!";
+            break;
+          case "6":
+            this.player2choice = "SPOCK!";
+            break;
+          case "3":
+            this.player2choice = "LIZARD!";
+            break;
+        }
 
                                                                            
-        alert(this.player1 + " WIN with " + this.player1choice);
+        alert(this.player1 + " WIN with " + this.player1choice + " against " + this.player2choice);
         this.score1++;
         alert(this.player1 + ": " + this.score1 + " X " + this.player2 + ": " + this.score2);
 
@@ -95,7 +112,24 @@ function winner(pressed){                                                       
             this.player2choice = "LIZARD!";
             break;
         }
-        alert(this.player2 + " WIN with " + this.player2choice);
+	switch(player1choice){
+          case "q":
+            player1choice = "ROCK!";
+            break;
+          case "w":
+            player1choice = "PAPER!";
+            break;
+          case "a":
+            player1choice = "SCISSORS!";
+            break;
+          case "s":
+            player1choice = "SPOCK!";
+            break;
+          case "z":
+            player1choice = "LIZARD!";
+            break;
+        }
+        alert(this.player2 + " WIN with " + this.player2choice + " against " + this.player1choice);
         this.score2++;
         alert(this.player1 + ": " + this.score1 + " X " + this.player2 + ": " + this.score2);
       }
