@@ -72,7 +72,7 @@ causing that functions was not running as they spouse to.
 
 ## Further development
 There is possibility for further development of this game in way to add another mode so that can be indefinitely
-and games up to 5 and upm to 10. Other of choice is to add button day mode/ night mode.
+and games up to 5 and up to 10. Other of choice is to add button day mode/ night mode.
 
 ## Credits
 Font Ubuntu used for projects are imported from google fonts and youtube icon has been imported from
