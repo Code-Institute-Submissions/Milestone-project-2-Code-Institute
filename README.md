@@ -33,7 +33,7 @@ black ubuntu font. On bottom of page there is icon that opens new window with yo
 ## Skeleton
 
 Wireframe skelton was build with softwere balsamiq and uploaded in wireframes folder
-1. [wireframe of  main page] (https://github.com/mariodragun/Milestone-project-2-Code-Institute/blob/master/wireframes/wireframe%20for%20main%20page.bmpr)
+1. [wireframe of  main page] (https://github.com/mariodragun/Milestone-project-2-Code-Institute/blob/master/wireframes/wireframe%20main%20page.PNG)
 
 ## Technologies used
 
